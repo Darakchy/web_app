@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+
+<form action="#" th:action="@{/}" method="post">
+    <label for="usd">$</label>
+    <input type="text" th:name="usd" id="usd">
+
+    <label for="curs">Curs</label>
+    <input type="text" th:name="curs" i id="curs">
+
+    <input type="submit" value="Calculate">
+</form>
+
+</body>
+</html>
